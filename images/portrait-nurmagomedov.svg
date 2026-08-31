@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="300" height="400" fill="url(#stripes)"/>
+  <line x1="0" y1="60" x2="300" y2="60" stroke="#e0263e" stroke-width="3" opacity="0.18"/>
+  <line x1="0" y1="340" x2="300" y2="340" stroke="#d4a24e" stroke-width="3" opacity="0.18"/>
+
+  <!-- compact wrestler / level-change stance -->
+  <g transform="translate(30,110) scale(1.7)" fill="#e0263e" opacity="0.9">
+    <circle cx="60" cy="45" r="13"/>
+    <polygon points="40,55 78,55 88,90 70,110 46,108 34,88"/>
+    <polygon points="46,108 36,108 20,150 34,156 54,112"/>
+    <polygon points="70,110 82,108 100,145 114,152 96,156 78,112"/>
+    <polygon points="42,60 26,66 10,95 22,102 40,72"/>
+    <polygon points="78,60 96,64 114,90 102,98 82,70"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#stripes)"/>
+  <circle cx="200" cy="160" r="135" fill="none" stroke="#d4a24e" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="200" cy="160" r="100" fill="none" stroke="#e0263e" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Nurmagomedov: compact wrestler stance -->
+  <g fill="#e0263e" transform="translate(20,120) scale(1.0)">
+    <circle cx="60" cy="45" r="13"/>
+    <polygon points="40,55 78,55 88,90 70,110 46,108 34,88"/>
+    <polygon points="46,108 36,108 20,150 34,156 54,112"/>
+    <polygon points="70,110 82,108 100,145 114,152 96,156 78,112"/>
+    <polygon points="42,60 26,66 10,95 22,102 40,72"/>
+    <polygon points="78,60 96,64 114,90 102,98 82,70"/>
+  </g>
+
+  <!-- Song Yadong: upright boxing stance, mirrored -->
+  <g fill="#d4a24e" transform="translate(380,110) scale(-1,1)">
+    <circle cx="65" cy="18" r="12"/>
+    <polygon points="52,28 80,28 88,78 72,102 50,102 40,78"/>
+    <polygon points="50,102 42,102 22,160 36,166 56,108"/>
+    <polygon points="72,102 82,102 100,148 114,168 96,172 78,110"/>
+    <polygon points="48,32 30,26 14,44 24,54 44,42"/>
+    <polygon points="84,32 104,30 122,50 110,60 88,44"/>
+  </g>
+
+  <text x="200" y="52" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#f3f3f2" text-anchor="middle" letter-spacing="3">VS</text>
+
+  <rect x="0" y="292" width="120" height="8" fill="#e0263e"/>
+  <rect x="280" y="292" width="120" height="8" fill="#d4a24e"/>
+</svg>
