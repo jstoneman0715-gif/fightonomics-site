@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#stripes)"/>
+  <circle cx="200" cy="160" r="135" fill="none" stroke="#d4a24e" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="200" cy="160" r="100" fill="none" stroke="#e0263e" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Rosas Jr: taller wrestling stance -->
+  <g fill="#e0263e" transform="translate(20,108) scale(1.05)">
+    <circle cx="60" cy="38" r="13"/>
+    <polygon points="42,48 78,48 88,84 70,106 46,104 36,82"/>
+    <polygon points="46,104 36,104 22,152 36,158 54,110"/>
+    <polygon points="70,106 82,104 100,142 114,150 96,154 78,110"/>
+    <polygon points="44,52 24,48 8,72 20,80 42,64"/>
+    <polygon points="80,52 100,56 118,84 106,92 84,66"/>
+  </g>
+
+  <!-- Barcelos: veteran boxing stance, mirrored -->
+  <g fill="#d4a24e" transform="translate(380,120) scale(-1,1)">
+    <circle cx="62" cy="20" r="12"/>
+    <polygon points="48,30 78,30 86,72 70,96 50,94 40,70"/>
+    <polygon points="50,94 42,94 24,148 38,153 56,100"/>
+    <polygon points="70,96 82,94 102,136 116,144 98,148 78,100"/>
+    <polygon points="46,34 28,26 30,52 46,56 52,44"/>
+    <polygon points="82,34 102,28 122,46 112,58 88,48"/>
+  </g>
+
+  <text x="200" y="52" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#f3f3f2" text-anchor="middle" letter-spacing="3">VS</text>
+
+  <rect x="0" y="292" width="120" height="8" fill="#e0263e"/>
+  <rect x="280" y="292" width="120" height="8" fill="#d4a24e"/>
+</svg>
