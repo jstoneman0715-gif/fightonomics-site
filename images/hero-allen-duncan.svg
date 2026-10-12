@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#stripes)"/>
+  <circle cx="200" cy="160" r="135" fill="none" stroke="#d4a24e" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="200" cy="160" r="100" fill="none" stroke="#e0263e" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Allen: grappling / submission stance -->
+  <g fill="#e0263e" transform="translate(18,118) scale(1.05)">
+    <circle cx="60" cy="40" r="13"/>
+    <polygon points="40,50 78,50 88,86 70,108 46,106 34,86"/>
+    <polygon points="46,106 36,106 20,150 34,156 54,110"/>
+    <polygon points="70,108 82,106 100,144 114,152 96,156 78,110"/>
+    <polygon points="42,55 26,60 10,90 22,98 40,68"/>
+    <polygon points="78,55 96,58 114,84 102,92 82,64"/>
+  </g>
+
+  <!-- Duncan: tall, long-limbed striker stance, mirrored -->
+  <g fill="#d4a24e" transform="translate(382,88) scale(-1,1)">
+    <circle cx="68" cy="16" r="11"/>
+    <polygon points="55,26 81,26 88,78 74,100 53,100 44,78"/>
+    <polygon points="53,100 46,100 24,166 36,171 57,106"/>
+    <polygon points="74,100 84,100 96,146 110,172 94,176 78,108"/>
+    <polygon points="53,30 44,27 36,46 44,54 55,42"/>
+    <polygon points="80,28 104,18 136,6 141,16 110,30 86,38"/>
+  </g>
+
+  <text x="200" y="52" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#f3f3f2" text-anchor="middle" letter-spacing="3">VS</text>
+
+  <rect x="0" y="292" width="120" height="8" fill="#e0263e"/>
+  <rect x="280" y="292" width="120" height="8" fill="#d4a24e"/>
+</svg>
