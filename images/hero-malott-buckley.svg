@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#stripes)"/>
+  <circle cx="200" cy="160" r="135" fill="none" stroke="#d4a24e" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="200" cy="160" r="100" fill="none" stroke="#e0263e" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Malott: compact muay thai knee stance -->
+  <g fill="#e0263e" transform="translate(22,110) scale(1.0)">
+    <circle cx="60" cy="38" r="13"/>
+    <polygon points="42,48 78,48 86,80 72,98 48,100 36,82"/>
+    <polygon points="48,100 38,100 24,146 38,152 56,104"/>
+    <polygon points="72,98 84,96 96,130 112,118 98,106 80,104"/>
+    <polygon points="44,52 26,50 10,78 22,86 42,66"/>
+    <polygon points="80,52 98,56 114,82 102,90 82,64"/>
+  </g>
+
+  <!-- Buckley: southpaw spinning striker stance, mirrored -->
+  <g fill="#d4a24e" transform="translate(378,112) scale(-1,1)">
+    <circle cx="62" cy="36" r="12"/>
+    <polygon points="46,46 80,46 88,82 70,104 48,102 38,82"/>
+    <polygon points="48,102 40,102 24,150 38,156 56,108"/>
+    <polygon points="70,104 82,102 100,140 114,148 96,152 78,108"/>
+    <polygon points="44,50 24,44 8,70 20,80 42,62"/>
+    <polygon points="82,50 102,54 120,80 108,90 86,62"/>
+  </g>
+
+  <text x="200" y="52" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#f3f3f2" text-anchor="middle" letter-spacing="3">VS</text>
+
+  <rect x="0" y="292" width="120" height="8" fill="#e0263e"/>
+  <rect x="280" y="292" width="120" height="8" fill="#d4a24e"/>
+</svg>

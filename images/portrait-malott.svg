@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="300" height="400" fill="url(#stripes)"/>
+  <line x1="0" y1="60" x2="300" y2="60" stroke="#e0263e" stroke-width="3" opacity="0.18"/>
+  <line x1="0" y1="340" x2="300" y2="340" stroke="#d4a24e" stroke-width="3" opacity="0.18"/>
+
+  <!-- compact muay thai knee stance -->
+  <g transform="translate(26,106) scale(1.7)" fill="#e0263e" opacity="0.9">
+    <circle cx="60" cy="38" r="13"/>
+    <polygon points="42,48 78,48 86,80 72,98 48,100 36,82"/>
+    <polygon points="48,100 38,100 24,146 38,152 56,104"/>
+    <polygon points="72,98 84,96 96,130 112,118 98,106 80,104"/>
+    <polygon points="44,52 26,50 10,78 22,86 42,66"/>
+    <polygon points="80,52 98,56 114,82 102,90 82,64"/>
+  </g>
+</svg>
