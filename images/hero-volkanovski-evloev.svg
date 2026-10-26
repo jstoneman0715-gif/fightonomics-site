@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#stripes)"/>
+  <circle cx="200" cy="160" r="135" fill="none" stroke="#d4a24e" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="200" cy="160" r="100" fill="none" stroke="#e0263e" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- title belt motif -->
+  <rect x="150" y="18" width="100" height="26" rx="6" fill="#d4a24e" opacity="0.85"/>
+  <rect x="182" y="14" width="36" height="34" rx="5" fill="#e0263e" opacity="0.9"/>
+  <text x="200" y="36" font-family="Arial, sans-serif" font-size="11" font-weight="800" fill="#0b0b0d" text-anchor="middle" letter-spacing="1">FW TITLE</text>
+
+  <!-- Volkanovski: stocky, low-stance pressure boxer -->
+  <g fill="#e0263e" transform="translate(16,110) scale(1.12)">
+    <circle cx="58" cy="34" r="13"/>
+    <polygon points="40,46 80,46 90,86 72,110 44,108 32,86"/>
+    <polygon points="44,108 34,108 20,150 34,156 52,112"/>
+    <polygon points="72,110 84,108 102,144 116,152 98,156 80,112"/>
+    <polygon points="42,50 20,44 6,68 18,78 40,62"/>
+    <polygon points="80,50 102,54 120,78 108,88 84,66"/>
+  </g>
+
+  <!-- Evloev: tall, upright wrestling control stance, mirrored -->
+  <g fill="#d4a24e" transform="translate(384,86) scale(-1,1)">
+    <circle cx="68" cy="16" r="11"/>
+    <polygon points="55,26 81,26 88,76 75,96 54,96 46,76"/>
+    <polygon points="54,96 47,96 28,158 40,163 60,100"/>
+    <polygon points="75,96 84,96 100,140 112,162 96,166 80,104"/>
+    <polygon points="53,30 30,32 14,56 26,64 50,44"/>
+    <polygon points="83,30 104,24 126,38 116,50 90,42"/>
+  </g>
+
+  <text x="200" y="76" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#f3f3f2" text-anchor="middle" letter-spacing="3">VS</text>
+
+  <rect x="0" y="292" width="120" height="8" fill="#e0263e"/>
+  <rect x="280" y="292" width="120" height="8" fill="#d4a24e"/>
+</svg>

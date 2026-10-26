@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="300" height="400" fill="url(#stripes)"/>
+  <line x1="0" y1="60" x2="300" y2="60" stroke="#e0263e" stroke-width="3" opacity="0.18"/>
+  <line x1="0" y1="340" x2="300" y2="340" stroke="#d4a24e" stroke-width="3" opacity="0.18"/>
+
+  <!-- stocky, low-stance pressure boxer -->
+  <g transform="translate(26,100) scale(1.75)" fill="#e0263e" opacity="0.9">
+    <circle cx="58" cy="34" r="13"/>
+    <polygon points="40,46 80,46 90,86 72,110 44,108 32,86"/>
+    <polygon points="44,108 34,108 20,150 34,156 52,112"/>
+    <polygon points="72,110 84,108 102,144 116,152 98,156 80,112"/>
+    <polygon points="42,50 20,44 6,68 18,78 40,62"/>
+    <polygon points="80,50 102,54 120,78 108,88 84,66"/>
+  </g>
+</svg>
