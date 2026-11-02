@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="300" fill="url(#stripes)"/>
+  <circle cx="200" cy="160" r="135" fill="none" stroke="#d4a24e" stroke-opacity="0.18" stroke-width="3"/>
+  <circle cx="200" cy="160" r="100" fill="none" stroke="#e0263e" stroke-opacity="0.12" stroke-width="2"/>
+
+  <!-- Moicano: compact, veteran technical striker stance -->
+  <g fill="#e0263e" transform="translate(20,108) scale(1.05)">
+    <circle cx="58" cy="32" r="12"/>
+    <polygon points="42,44 78,44 88,84 70,106 46,104 34,82"/>
+    <polygon points="46,104 36,104 20,148 34,154 52,108"/>
+    <polygon points="70,106 82,104 100,142 114,150 96,154 78,110"/>
+    <polygon points="44,48 22,42 6,64 18,74 40,58"/>
+    <polygon points="82,48 102,54 120,78 108,88 86,64"/>
+  </g>
+
+  <!-- Nolan: tall, rangy southpaw striker, mirrored -->
+  <g fill="#d4a24e" transform="translate(386,78) scale(-1,1)">
+    <circle cx="70" cy="14" r="11"/>
+    <polygon points="57,24 83,24 90,78 76,100 54,100 46,78"/>
+    <polygon points="54,100 47,100 26,164 38,169 60,106"/>
+    <polygon points="76,100 85,100 98,148 112,172 96,176 80,108"/>
+    <polygon points="56,28 32,22 16,44 28,54 52,40"/>
+    <polygon points="84,28 106,34 128,54 116,66 90,48"/>
+  </g>
+
+  <text x="200" y="74" font-family="Arial, sans-serif" font-size="32" font-weight="800" fill="#f3f3f2" text-anchor="middle" letter-spacing="3">VS</text>
+
+  <rect x="0" y="292" width="120" height="8" fill="#e0263e"/>
+  <rect x="280" y="292" width="120" height="8" fill="#d4a24e"/>
+</svg>

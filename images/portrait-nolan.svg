@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="stripes" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="#131316"/>
+      <rect width="8" height="16" fill="#17171b"/>
+    </pattern>
+  </defs>
+  <rect width="300" height="400" fill="url(#stripes)"/>
+  <line x1="0" y1="60" x2="300" y2="60" stroke="#e0263e" stroke-width="3" opacity="0.18"/>
+  <line x1="0" y1="340" x2="300" y2="340" stroke="#d4a24e" stroke-width="3" opacity="0.18"/>
+
+  <!-- tall, rangy southpaw striker stance -->
+  <g transform="translate(24,96) scale(1.65)" fill="#d4a24e" opacity="0.9">
+    <circle cx="70" cy="14" r="11"/>
+    <polygon points="57,24 83,24 90,78 76,100 54,100 46,78"/>
+    <polygon points="54,100 47,100 26,164 38,169 60,106"/>
+    <polygon points="76,100 85,100 98,148 112,172 96,176 80,108"/>
+    <polygon points="56,28 32,22 16,44 28,54 52,40"/>
+    <polygon points="84,28 106,34 128,54 116,66 90,48"/>
+  </g>
+</svg>
